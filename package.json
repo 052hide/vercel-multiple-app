@@ -1,0 +1,17 @@
+{
+  "name": "vercel-multiple-app",
+  "version": "1.0.0",
+  "author": "052hide <hidetoshi1990@gmail.com>",
+  "scripts": {
+    "i": "npm-run-all -p install:app1 install:app2",
+    "install:app1": "yarn --cwd ./apps/app-1 install",
+    "install:app2": "yarn --cwd ./apps/app-2 install",
+    "dev": "npm-run-all -p dev:app1 dev:app2",
+    "dev:app1": "yarn --cwd ./apps/app-1 dev",
+    "dev:app2": "yarn --cwd ./apps/app-2 dev"
+  },
+  "devDependencies": {
+    "npm-run-all": "4.1.5",
+    "prettier": "2.8.8"
+  }
+}
