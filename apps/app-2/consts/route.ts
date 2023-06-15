@@ -1,1 +1,1 @@
-export const ASSET_PREFIX = '/app2'
+export const ASSET_PREFIX = process.env.NODE_ENV !== 'production' ? '' : '/app2'
