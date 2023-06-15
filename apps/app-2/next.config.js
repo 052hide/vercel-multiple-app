@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  assetPrefix: 'https://vercel-multiple-app.vercel.app/',
+  assetPrefix: 'https://app2.052hide.com/',
 }
 
 module.exports = nextConfig

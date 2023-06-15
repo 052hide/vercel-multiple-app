@@ -5,7 +5,7 @@ const nextConfig = {
     return [
       {
         source: '/app2/:match*',
-        destination: 'https://vercel-multiple-app.vercel.app/:match*',
+        destination: 'https://app2.052hide.com/:match*',
       },
     ]
   },
