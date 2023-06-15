@@ -15,7 +15,7 @@ export default function Home() {
           'tw-bg-white'
         )}
       >
-        <div className={clsx('tw-grid tw-justify-center', 'tw-py-8')}>
+        <div className={clsx('tw-grid tw-justify-center', 'tw-py-8 tw-px-4')}>
           <div className={clsx('tw-grid tw-gap-4')}>
             <p>Base App</p>
             <Image src="/app1.svg" alt="App 1" width={800} height={400} />

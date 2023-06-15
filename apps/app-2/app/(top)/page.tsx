@@ -4,7 +4,7 @@ import { clsx } from 'clsx'
 
 export default function Home() {
   return (
-    <div className={clsx('tw-grid tw-justify-center', 'tw-py-8')}>
+    <div className={clsx('tw-grid tw-justify-center', 'tw-py-8 tw-px-4')}>
       <div className={clsx('tw-grid tw-gap-4')}>
         <p>App 2</p>
         <Image
