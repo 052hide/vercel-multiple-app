@@ -1,20 +1,3 @@
 {
-  "redirects": [
-    {
-      "source": "/app2/",
-      "destination": "https://app2.052hide.com/"
-    },
-    {
-      "source": "/app2/:match*",
-      "destination": "https://app2.052hide.com/:match*"
-    },
-    {
-      "source": "/",
-      "destination": "https://052hide.com/"
-    },
-    {
-      "source": "/:match*",
-      "destination": "https://052hide.com/:match*"
-    }
-  ]
+  "redirects": []
 }
