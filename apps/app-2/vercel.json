@@ -1,8 +1,3 @@
 {
-  "redirects": [
-    {
-      "source": "/:path*",
-      "destination": "https://052hide.com/app2/:path*"
-    }
-  ]
+  "redirects": []
 }

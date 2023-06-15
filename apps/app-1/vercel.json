@@ -1,3 +1,9 @@
 {
-  "redirects": []
+  "redirects": [],
+  "rewrites": [
+    {
+      "source": "/app2/:match*",
+      "destination": "https://app2.052hide.com/:match*"
+    }
+  ]
 }
