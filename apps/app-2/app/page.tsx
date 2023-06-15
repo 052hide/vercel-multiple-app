@@ -1,11 +1,12 @@
 import Image from 'next/image'
+import { ASSET_PREFIX } from '@/consts/route'
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <p>App 2</p>
       <Image
-        src="/app2.svg"
+        src={`${ASSET_PREFIX}/app2.svg`}
         alt="App 2"
       />
       <a href="/">To Base App</a>
